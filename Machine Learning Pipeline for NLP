@@ -1,0 +1,11 @@
+**********************************************************************************************************************************
+MACHINE LEARNING PIPELINE
+**********************************************************************************************************************************
+
+1. Raw Text --> model can't distinguish word
+2. Tokenize --> tell the model what to look at
+3. Clean Text --> remove stop words, punctuations, stemming, etc
+4. Vectorize --> convert to numeric form
+5. Machine Learning algo --> fit/train model
+
+After this choosinf and implementing the best model and then making spam filter!
