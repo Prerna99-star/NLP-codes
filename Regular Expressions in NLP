@@ -1,0 +1,19 @@
+*********************************************************************************************************************************
+Regular Expressions in Natural Language processing  ----------> A text string describing a search pattern.
+*********************************************************************************************************************************
+
+Where these are useful:  
+             1. Identifying the white spaces between words/ tokens
+             2. Identifying/ Creating delimeters or end of line escape charachters
+             3. Removing Punctuations and numbers from text
+             4. Identifying some Random Patterns
+
+Where these are currently used:
+             1. Confirming Pawords meet Criteria
+             2. Searching URL from substring
+             3. Searching for files on computer
+             4. Document Scraping
+             
+The two popular methods are used:
+              a. split()
+              b. findall()
