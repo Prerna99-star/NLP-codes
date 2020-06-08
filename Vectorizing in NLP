@@ -1,0 +1,25 @@
+***********************************************************************************************************************************
+                                                 VECTORIZING
+***********************************************************************************************************************************
+
+Process of encoding text as integers to create feature vectors
+    -> What is feature Vector ?
+          n-dimentional vector of numerical features that represent some object.
+          i.e Taking a text message and converting it to the numeric vector that represents the text message.
+          
+-> VECTORIZE TEXT :
+      Taking dataset that has one line per document with the cell entry as the actual text message, then we are converting it 
+      to a matrix, every word used across all documents as the column of the matrix. Within each cell is counting how many times
+      certain word is appeared in the document. This is called Document Term Matrix. After getting this numeric representation, we
+      can fit and train the model.
+      
+-> Why it is important ??
+      # Python sees a word only as a string of charachters.
+      # Raw text is needed to be converted into numbers, so that Pythom and algo used for ML can understand.
+      
+-> Different Methods of vactorization:
+      # Count Vactorization
+      # N- grams
+      # Term frequency - inverse document frequency (TF-IDF)
+      
+ 
