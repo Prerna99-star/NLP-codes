@@ -1,0 +1,31 @@
+***********************************************************************************************************************************
+                                               FEATURE ENGINEERING AND TRANSFORMATION
+***********************************************************************************************************************************
+
+-> WHAT IS FEATURE ENGINEERING?
+   Creating new features or transforming the existing features to get the most out of your data.
+   
+-> CREATING NEW DATA:
+   # Length of text field.
+   # Percentage of charachters that are punctuation in the text
+   # Percentage of the data that are Capitalized
+   
+-> TRANFORMATIONS :---> # Process that alters each data point in a certain column in a systematic way.
+                        # If the distribution of the feature has the long right tail, Transformation aim to pull that tail in to 
+                          make it a more compact distribution.
+   # Power Transformatin (square, square root etc.)--------->
+                                                              BOX-COX power Transformation:-  
+                                                                  Base of this transformation is y to the power of x, where y is the
+                                                                  value in the individual cell and x is an exponent of the power 
+                                                                  transformation.
+   # Standardizing data - transforming all data on the same scale
+   
+   
+-> TRANSFORMATION PROCESS :
+         1. Determine what range of the exponents to test.
+         2. Apply each transformation to each value of your choosen feature.
+         3. Use some criteria to determine which of the transformations yield the best distribution.
+         
+         
+-> While feature creation always imagine what information might be helpful in the model within the context and understanding of 
+   what exactly it is trying to predict.
