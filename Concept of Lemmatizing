@@ -1,0 +1,27 @@
+***********************************************************************************************************************************
+                                            CONCEPT OF LEMMATIZING
+***********************************************************************************************************************************
+
+-> What is lemmatizing?
+
+  # Process of grouping together the inflected forms of words so they can be analyzed as a single word, identified by the word's
+   Lemma.
+  # Using vocabulary analysis of words aiming to remove inflection endings to return the dictionary form of a word
+  # ex-> type, typed, typing are of the same lemma called 'type', i.e. same word withe different tenses.
+  
+  
+-> How lemmatizing is different from stemming?
+  
+  # Aiming same thing but in different ways- there is an accuracy and speed trade-off that you are making when you opt one over the 
+    other
+  # The goal of both is to condense derived words into their base forms
+  
+  # But practically--------------->
+  
+        Stemming is typically faster as it simply chops off the end of a word using heuristics, without understanding about the 
+        context in which it is used. Because of this stemming may or may not return an actual word in the dictionary. It is less
+        accurate but fast as the rules are quite simple.
+        
+        Lemmatizing is more accurate as it uses more informed analysis to create groups of words with similar meanings based on 
+        the context around the word. It laverages more informed analysis. Always return a dictionary word. Due to additional 
+        context it considered, it is more accurate but computationally more expensive
