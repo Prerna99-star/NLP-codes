@@ -1,0 +1,33 @@
+**************************************************************************************************************************************
+                                               CONCEPT OF STEMMING
+**************************************************************************************************************************************
+-> What is stemming?
+   
+   # Process of reducing inflected words to their word stem or root.
+   # Crudely chopping off the end of the word to leave only the base i.e. taking words with various suffix and condensing them 
+     under the same root word.
+   # reducing variations of the same root word
+   
+   
+-> EXAMPLES
+
+            words           ------------------------->   Root word
+            
+   1. growth/growing/grown   ------------------------->    grow
+   2. connected/connection/  ------------------------->    connect
+       connective
+   3. Loving/Loved           ------------------------->    Love
+   4. Meanness/Meaning       ------------------------->    Mean
+   
+   
+-> Why this is required?
+ 1. Reduces the corpus of words the model is exposed to.
+ 2. Explicitily correlated words with similar meaning.
+
+-> Types of stemmer in NLTK:
+
+    # Porter Stemmer
+    # Snowball Stemmer
+    # Lancaster Stemmer
+    # Regex - based stemmer
+    
